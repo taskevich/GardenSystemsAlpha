@@ -1,0 +1,72 @@
+body {
+    width: 1920px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #141414;
+    
+
+}
+
+.header {
+    height: 64px;
+    background-color: #b502b9;
+}
+.header_p {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+text-align: center;
+color: #fff;
+margin: 0px;
+}
+
+fieldset{
+    border: 0px;
+    text-align: center;
+}
+
+.logincss {
+ border-radius: 5px;
+ width: 303px;
+}
+
+.passwordcss {
+    border-radius: 5px;
+    width: 303px;
+}
+ .p_form{
+width: 1633px;
+ }
+
+p {
+    color: #fff;
+    margin: 10px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 12px;
+text-align: center;
+}
+
+
+.button {
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #b502b9;
+    color: #fff;
+    border: 0px;
+}
+.p_button {
+width: 1657px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #b502b9;
+
+}

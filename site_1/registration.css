@@ -1,0 +1,121 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #141414;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.header {
+  width: 1920px;
+height: 70px;
+  background-color: #1d9cff;
+  display: flex;
+  justify-content: center;
+padding: 10px 0;
+}
+.header_p {
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+text-align: center;
+color: #fff;
+margin: auto 0px;
+}
+.logo {
+    width: 74px;
+    height: 70px;
+    margin-right: 10px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding-right: 10px;
+}
+
+.container {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1920px;
+}
+
+fieldset{
+    border: 0px;
+    text-align: center;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+
+}
+#login {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.logincss {
+ border-radius: 5px;
+ width: 303px;
+}
+
+.passwordcss {
+    border-radius: 5px;
+    width: 303px;
+}
+
+p {
+    color: #fff;
+    margin: 10px 10px 10px 0px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 12px;
+text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #1d6cff;
+
+}
+
+
+.button {
+  width: 170px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #1d6cff;
+    color: #fff;
+    border: 0px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input{
+  padding:10px;
+  border:0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  border-radius:10px;
+}
+
+
+
+@media (max-width:1200px) {
+    .block{
+      max-width: 1024px;
+    }
+  }
+  
+  @media (max-width:1000px) {
+    .block{
+      max-width: 480px;
+    }
+  }
+  
+  @media (max-width:500px) {
+    .block{
+      max-width: 320px;
+    }
+  }

@@ -1,0 +1,292 @@
+/*---весь экран---*/
+
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: #141414;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+/*---block flex---Все элементы---*/
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*---Container---*/
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+/*---header---*/
+.logo {
+    width: 74px;
+    height: 70px;
+    margin-right: 10px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding-right: 10px;
+}
+  
+.head{
+height: 70px;
+  background-color: #1d9cff;
+  display: flex;
+  justify-content: center;
+padding: 10px 0;
+}
+
+.exit {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+h1 {
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-right: 10px;
+}
+
+/*---Ползунки---*/
+
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1px;
+  color: #FFFFFF;
+}
+.badur {
+display: flex;
+}
+
+    
+    
+#ik {
+  width: 365px;
+  height: 29px;
+}
+
+.text {
+
+  /* display: flex; */
+  justify-content: space-between;
+}
+
+.trackbars {
+  display: flex; 
+
+flex-direction: column;
+}
+
+
+
+input[type="submit" i] {
+  width: 120px;
+  height: 30px;
+  text-align: center;
+}
+    
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    input[type='range'] {
+      -webkit-appearance: none;
+      background-color: #0084ff;
+      border-radius: 300px;
+  }
+        
+    input[type='range']::-webkit-slider-thumb {
+      width: 31px;
+      height: 29px;
+      -webkit-appearance: none;
+      background: #ffffff;
+      border-radius: 300px;
+    }
+}
+
+/*---Датчики---*/
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sensors{
+    display: grid;
+    align-content: space-evenly
+
+}
+    
+.divka {
+  margin-top: 20px;
+}
+
+.button_form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.buttons-veg{
+  display: flex;
+justify-content: space-between;
+  margin-top: 20px;
+}
+
+.buttons-veg button{
+  width: 35%;
+}
+.buttons-veg select{
+  width: 50%;
+}
+
+
+/*---Результат---*/
+    
+
+.result {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 474px;
+  height: 168px;
+  border-radius: 7px;
+  background-color: #B502B9;
+  border:  0px;
+  text-align: center;
+  resize: none;
+
+}
+.typelist{
+display: flex;
+justify-content: space-between;
+}
+
+textarea { 
+  font-size: 20px; 
+  padding-top: 130px; 
+}
+
+.bonus2 {
+  width: 478px;
+  height: 300px;
+  border-radius: 7px;
+}
+/*---Устройства---*/
+    
+.radio{
+    display: flex;
+    border-radius: 30px;
+    justify-content: space-between;
+}
+
+.spisok {
+  background-color: #1402b9;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 120px;
+  height: 30px;
+  color: #FFFFFF;
+  text-align: center;
+
+}
+.form_radio_btn {
+	display: inline-block;
+  margin-top: -8px;
+  border-radius: 30px;
+  color: white;
+}
+.form_radio_btn input[type=radio] {
+	display: none;
+  background-color: #1d6cff;
+}
+.form_radio_btn label {
+  margin-top: 20px;
+	display: inline-block;
+	cursor: pointer;
+	padding: 0px 15px;
+	line-height: 34px;
+	border-radius: 6px;
+	user-select: none;
+  background-color: #1d6cff;
+  border-radius: 30px;
+}
+ 
+/* Checked */
+.form_radio_btn input[type=radio]:checked + label {
+	background: #1d9cff;
+  color: #FFFFFF;
+  border-radius: 30px;
+}
+ 
+/* Hover */
+.form_radio_btn label:hover {
+	color: #1d6cff;
+  background-color: #FFFFFF;
+  border-radius: 30px;
+}
+ 
+/*---Кнопки---*/
+.btn_top {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 145px;
+  border: solid 1px transparent;
+  border-radius: 30px;
+  width: 150px;
+  height: 44px;
+  color: #ffffff;
+  background-color: #1d6cff;
+}
+
+.btn {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 0;
+  border: solid 1px transparent;
+  border-radius: 30px;
+  width: 150px;
+  height: 44px;
+  color: #ffffff;
+  background-color: #1d6cff;
+}
+
+.btn:hover,
+.btn:focus {
+  color: #9555af;
+  border-color: currentColor;
+  background-color: white;
+}
+
+.btn::-moz-focus-inner {
+  border: none;
+}
+
+.grafic {
+padding-top: 50px;
+    display: flex;
+}
